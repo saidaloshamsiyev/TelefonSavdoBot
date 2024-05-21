@@ -1,0 +1,19 @@
+package uz.pdp.model;
+
+public enum UserState {
+
+    ASKING_OWNER,
+    ASKING_MODEL,
+    ASKING_RAM,
+    ASKING_DOCUMENT,
+    ASKING_ADDRESS,
+    ASKING_PRICE,
+    ASKING_TEL,
+    ASKING_EXTRA,
+    ASKING_REQUEST,
+
+    ASKING_PHOTO,
+
+
+    MAIN_MENU, SEND_REQUEST, SEND_POST, ASKING_BRAND
+}
